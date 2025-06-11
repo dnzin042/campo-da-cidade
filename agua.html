@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agrinho 2025 - Construindo um Futuro Sustentável</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', Arial, sans-serif;
+      background: linear-gradient(to bottom, #f7fafc, #ffffff);
+      color: #1a202c;
+      margin: 0;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      line-height: 1.2;
+    }
+    section h2 {
+      border-bottom: 2px solid #2e7d32;
+      padding-bottom: 0.5rem;
+    }
+    @media (max-width: 640px) {
+      header h1 {
+        font-size: 1.875rem;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
 </head>
-<body>
-    agua
+<body class="antialiased">
+  <!-- Botão Voltar para Início -->
+  <a href="index.html" class="fixed top-4 left-4 z-10 flex items-center gap-2 bg-white hover:bg-gray-100 text-gray-800 font-semibold px-4 py-2 rounded-full shadow-lg transition duration-300 ease-in-out" aria-label="Voltar para a página inicial">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+    </svg>
+    <span>Início</span>
+  </a>
+
+  <!-- Cabeçalho -->
+  <header class="text-center py-8 bg-gradient-to-r from-green-600 to-green-700 text-white shadow-lg">
+    <div class="max-w-6xl mx-auto px-4">
+      <h1 class="font-bold">Agrinho 2025 - Construindo um Futuro Sustentável no Campo</h1>
+      <p class="mt-2 text-lg">Educar para proteger a natureza e valorizar o trabalho no campo</p>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="max-w-6xl mx-auto px-4 py-12 space-y-12">
+    <section id="educacao-ambiental" class="bg-white rounded-lg shadow-md p-6">
+      <h2 class="text-2xl font-semibold text-green-800">Conservação da Água no Campo</h2>
+      <p class="mt-4 text-gray-700 leading-relaxed">
+        A conservação da água é essencial para garantir a sustentabilidade na agricultura. O uso responsável desse recurso ajuda a preservar os ecossistemas e garante o abastecimento das comunidades rurais. Técnicas como irrigação por gotejamento e captação da água da chuva são práticas que evitam desperdícios. Proteger nascentes e rios mantém a biodiversidade local e o equilíbrio ambiental. É importante educar crianças e jovens sobre o valor da água para formar cidadãos conscientes dos desafios ambientais. O uso eficiente da água também fortalece a economia rural e melhora a qualidade de vida no campo. A proteção dos recursos hídricos é uma responsabilidade coletiva fundamental para o desenvolvimento sustentável e para as futuras gerações.
+      </p>
+    </section>
+
+    <section id="tecnologia-agricola" class="bg-white rounded-lg shadow-md p-6">
+      <h2 class="text-2xl font-semibold text-green-800">Alimentação Saudável e Agricultura</h2>
+      <p class="mt-4 text-gray-700 leading-relaxed">
+        A conexão entre agricultura e alimentação saudável é fundamental para o Agrinho 2025. A produção local e orgânica estimula hábitos alimentares que valorizam alimentos frescos, nutritivos e livres de agrotóxicos. As escolhas alimentares impactam diretamente a saúde das pessoas e o meio ambiente. A agricultura sustentável contribui para a manutenção do solo fértil e a preservação dos recursos naturais, garantindo alimentos de qualidade. Incentivar a agricultura familiar fortalece a economia local e cria uma cadeia alimentar mais justa. O contato com a produção rural aumenta o respeito pelo agricultor e o entendimento da origem dos alimentos. Hortas escolares e comunitárias são ferramentas educativas que conectam teoria e prática para a construção de hábitos saudáveis.
+      </p>
+    </section>
+
+    <section id="valorizacao-do-campo" class="bg-white rounded-lg shadow-md p-6">
+      <h2 class="text-2xl font-semibold text-green-800">Agroecologia e Biodiversidade</h2>
+      <p class="mt-4 text-gray-700 leading-relaxed">
+        A agroecologia une o conhecimento científico e saberes tradicionais para promover sistemas agrícolas equilibrados e sustentáveis. A valorização da biodiversidade garante a saúde do solo, protege as plantas e favorece a convivência harmoniosa com os animais. Práticas como rotação de culturas, plantio consorciado e uso de adubos naturais evitam o uso excessivo de produtos químicos e aumentam a resiliência das propriedades rurais. A diversidade de plantas e animais cria um ecossistema saudável, beneficiando a produção agrícola e a conservação da natureza. O Agrinho 2025 estimula a conscientização sobre a importância de cada elemento no equilíbrio do campo, incentivando a participação ativa da comunidade escolar. A agroecologia representa uma alternativa sustentável para o futuro da agricultura.
+      </p>
+    </section>
+
+    <!-- Navegação -->
+    <div class="flex justify-center items-center gap-6 mt-10">
+      <a href="energia.html" class="bg-green-700 hover:bg-green-800 text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition-all duration-300" aria-label="Página Anterior">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+        Anterior
+      </a>
+      <a href="producao.html" class="bg-green-700 hover:bg-green-800 text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition-all duration-300" aria-label="Próxima Página">
+        Próximo
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-green-800 text-white py-6 mt-12">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p>&copy; 2025 Agrinho. Todos os direitos reservados.</p>
+      <p class="mt-2">
+        <a href="/sobre" class="hover:underline">Sobre</a> |
+        <a href="/contato" class="hover:underline">Contato</a> |
+        <a href="/politica-privacidade" class="hover:underline">Política de Privacidade</a>
+      </p>
+    </div>
+  </footer>
 </body>
 </html>

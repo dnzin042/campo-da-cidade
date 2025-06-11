@@ -1,11 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campo e Cidade - Conexão</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #fcfcfc, #ffffff);
+    }
+
+    footer {
+      height: 64px;
+      /* altura do rodapé */
+    }
+  </style>
+
 </head>
-<body>
-    energia
+
+<body class="text-gray-800 font-sans">
+
+  <!-- Botão "Voltar para Início" -->
+  <a href="index.html"
+    class="fixed top-6 left-4 flex items-center gap-2 bg-white hover:bg-gray-100 text-black font-semibold text-base px-4 py-2 rounded-full shadow-md transition duration-300"
+    title="Voltar para a página inicial">
+    <!-- Ícone de seta escura -->
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+      class="w-5 h-5 text-black">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+    </svg>
+    <span>Início</span>
+  </a>
+  <!-- Cabeçalho -->
+  <header class="text-center py-6 bg-green-600 text-white shadow-md rounded-b-2xl">
+    <h1 class="text-3xl font-bold">🌾Troca de Saberes e Culturas</h1>
+    <p class="mt-1 text-base">Conheça como o rural e o urbano se complementam</p>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main class="max-w-6xl mx-auto px-4 py-10 space-y-12">
+
+    <!-- Tópico 1: O Campo -->
+    <section class="flex flex-col md:flex-row items-center gap-6">
+      <img src="festa junina na cidade.jpg" alt="Imagem do Campo" class="rounded-xl w-full md:w-1/2 shadow-md">
+      <div class="md:w-1/2">
+        <h2 class="text-2xl font-semibold text-green-700">Tradições rurais vivas na cidade</h2>
+        <p class="mt-2">As tradições rurais continuam vivas nas cidades, revelando a força dos laços culturais entre
+          campo e urbano. Festas juninas com suas bandeirinhas coloridas, quadrilhas animadas e comidas típicas
+          transformam praças e escolas em cenários cheios de memória afetiva. Essas celebrações, que nasceram no
+          interior, encontram novo fôlego nos centros urbanos.
+
+          Além das festas, feiras de produtores, apresentações de música caipira e rodas de conversa sobre saberes
+          populares também ocupam os espaços urbanos. São encontros que celebram o conhecimento passado de geração em
+          geração — da colheita à cozinha, das danças aos causos contados à beira do fogão.
+
+          Ao valorizar essas manifestações, a cidade se torna um lugar de acolhimento e continuidade das raízes rurais.
+          Essa conexão fortalece identidades e mostra que o campo vive e se reinventa também no coração urbano.</p>
+      </div>
+    </section>
+
+    <!-- Tópico 2: A Cidade -->
+    <section class="flex flex-col-reverse md:flex-row items-center gap-6">
+      <div class="md:w-1/2">
+        <h2 class="text-2xl font-semibold text-green-700">O campo dentro da cidade</h2>
+        <p class="mt-2">Mesmo em meio a prédios, asfalto e buzinas, o campo encontra formas de existir dentro da cidade.
+          Seja nas hortas urbanas, nas feiras de produtos locais ou nos saberes trazidos por quem migrou do interior, há
+          sinais vivos da presença rural no cotidiano urbano.
+
+          Espaços comunitários cultivam alimentos como se estivessem na roça, enquanto quitandas, cozinhas tradicionais
+          e artesanatos mantêm viva a cultura do interior. Esses elementos criam pontos de respiro, memória e
+          pertencimento no meio do concreto.
+
+          O campo se manifesta em gestos, sabores e histórias — nos quintais, nas conversas e até nas músicas que ecoam
+          em bairros periféricos. Assim, a cidade abriga não só estruturas, mas também raízes. E é nesse encontro que
+          novas formas de viver e lembrar o campo florescem no cenário urbano. </p>
+      </div>
+      <img src="o campo dentro da cidade.jpg" alt="Imagem da Cidade" class="rounded-xl w-full md:w-1/2 shadow-md">
+    </section>
+
+    <!-- Tópico 3: A Conexão -->
+    <section class="flex flex-col md:flex-row items-center gap-6">
+      <img src="conexao campo a cidade agrinho.jpg" alt="Imagem da Conexão"
+        class="rounded-xl w-full md:w-1/2 shadow-md">
+      <div class="md:w-1/2">
+        <h2 class="text-2xl font-semibold text-green-700">🔗 A Conexão</h2>
+        <p class="mt-2">A conexão entre o campo e a cidade é essencial para o desenvolvimento sustentável da sociedade.
+          No campo, são produzidos alimentos, matérias-primas e recursos naturais que abastecem os centros urbanos. Já a
+          cidade oferece ao campo tecnologia, educação, serviços de saúde e mercado consumidor. Essa troca constante
+          fortalece ambos os ambientes, promovendo qualidade de vida e crescimento econômico. O campo depende da cidade
+          para escoar sua produção e se modernizar. A cidade, por sua vez, precisa do campo para garantir segurança
+          alimentar e equilíbrio ambiental. Essa interdependência mostra que o progresso deve ser construído com
+          respeito mútuo e cooperação. Investir na valorização do campo é investir no futuro de todos. O tema Agrinho
+          nos convida a refletir sobre essa relação. Juntos, campo e cidade constroem um Brasil mais forte e justo.</p>
+      </div>
+    </section>
+
+      <div class="flex justify-center items-center gap-8 mt-10">
+        <!-- Botão Anterior (exemplo desativado) -->
+        <a href="#" aria-label="Página Anterior"
+          class="bg-green-700 hover:bg-green-800 rounded-full p-3 flex items-center justify-center transition-all duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+        </a>
+
+        <!-- Botão Próximo -->
+        <a href="agua.html" aria-label="Próxima Página"
+          class="bg-green-700 hover:bg-green-800 rounded-full p-3 flex items-center justify-center transition-all duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+  </main>
 </body>
+
 </html>
